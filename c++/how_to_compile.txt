@@ -1,0 +1,25 @@
+
+Command to compile C++ program
+
+	$ g++ -Wall <source.cpp> -o <dest.exe>
+
+Sign "$" represents promt. It sholdn't be written.
+
+Key "-Wall"		print all Warnings
+Key	"-o"		to specify output file
+
+Common rule is that all in brackets  <...> should be substituted
+<source.cpp> 	-	path to source file
+<dest.exe>		-	name of destination execution binary file
+
+------------------------------------------------------------------
+
+For example:
+Write next command from directory with this file
+	
+	$ g++ -Wall ./src/hello_cpp.cpp -o ./bin/hello.exe
+	
+Execute file 
+	
+	$ ./bin/hello.exe
+
