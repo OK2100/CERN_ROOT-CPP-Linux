@@ -47,8 +47,8 @@ int main() {
 	float fa2 = 3.1415926535;
 
 	std::cout << "DEC integer\t" << ia2 << "\n";
-	std::cout << "HEX integer\t" << hex << ia2 << "\n";
-	std::cout << "Float\t" << fa2 << \n;
+	std::cout << "HEX integer\t" << std::hex << ia2 << "\n";
+	std::cout << "Float\t" << fa2 << "\n";
 
 
 //	ВВод производится с помощью объекта std::cin.
@@ -57,7 +57,7 @@ int main() {
 	int e2;
 	std::cout << "Enter integer number: ";
 	std::cin >> e2;
-	std::cout << "You entered" << e2 << "\n";
+	std::cout << std::dec  <<"You entered: " << e2 << "\n";
 
 /*
 	Есть еще множество функций для работы с чтением

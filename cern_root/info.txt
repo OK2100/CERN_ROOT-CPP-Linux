@@ -1,0 +1,22 @@
+
+Сайт ROOT:
+	https://root.cern/
+(Рекомендуется пользоваться поиском в верхнем правом углу
+страницы и полистать раздел Get Started)
+
+
+Стили маркеров:
+	https://root.cern/doc/master/classTAttMarker.html
+
+Стили линий:
+	https://root.cern/doc/master/classTAttLine.html
+
+Стили заполнения:
+	https://root.cern/doc/master/classTAttFill.html
+
+Опции отрисовки TGraph:
+	https://root.cern/doc/master/classTGraphPainter.html
+
+
+
+
